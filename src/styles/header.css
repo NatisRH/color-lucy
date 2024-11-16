@@ -1,0 +1,168 @@
+/* Estilos del header */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,900&display=swap');
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+    border-bottom: 1pxs solid #ddd;
+  }
+  
+  /* Contenedor del logo */
+  .logo-container {
+    width: 100px;
+  }
+  
+  /* Estilo del logo */
+  .logo {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Estilo de la navegación */
+  .nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Estilo de los enlaces */
+  .nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+  }
+  
+  .nav-link:hover {
+    color: #555; /* Cambia el color al pasar el cursor */
+  }
+  
+
+  
+/* Contenedor principal */
+.main-section {
+  display: flex;
+  flex-direction: row; /* En pantallas grandes, el texto y la imagen estarán en fila */
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  gap: 30px;
+  flex-wrap: wrap; /* Esto asegura que los elementos no se sobrepongan */
+}
+
+/* Contenedor del texto */
+.text-container {
+  flex: 1;
+  max-width: 90%;
+  text-align: left;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 20px;
+  text-align: left; /* Centrado para pantallas pequeñas */
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #535050;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: left; /* Centrado para pantallas pequeñas */
+}
+
+/* Botón */
+.cta-button {
+  font-family: 'Roboto', sans-serif;
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block; /* Centra el botón */
+}
+
+.cta-button:hover {
+  background-color: #218838;
+}
+
+/* Contenedor de la imagen */
+.image-container {
+  flex: 1;
+  width: 50%; /* 50% para la imagen */
+  max-width: 600px; /* Para que no se haga demasiado grande */
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Para que la imagen no quede pegada al texto en pantallas pequeñas */
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Mantiene la proporción de la imagen */
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Media Queries para pantallas pequeñas */
+@media (max-width: 768px) {
+  .main-section {
+    flex-direction: column; /* En pantallas pequeñas, el contenido será vertical */
+    text-align: center; /* Centrado del contenido */
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 2.2rem; /* Reducir tamaño del título */
+  }
+
+  p {
+    font-size: 1.2rem; /* Ajustar tamaño del párrafo */
+  }
+
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 1.2rem; /* Ajustar el tamaño del botón */
+    margin-top: 20px; /* Espaciado entre el texto y el botón */
+  }
+
+  .image-container {
+    width: 90%; /* La imagen será más grande en pantallas pequeñas */
+    margin-top: 10px;
+  }
+
+  .main-image {
+    max-width: 100%;
+    height: auto; /* Mantiene la proporción de la imagen */
+  }
+}
+
+/* Media Queries para pantallas móviles muy pequeñas */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem; /* Ajustar tamaño del título */
+  }
+
+  p {
+    font-size: 1rem; /* Ajustar tamaño del párrafo */
+  }
+
+  .cta-button {
+    padding: 8px 16px; /* Ajustar tamaño del botón */
+  }
+
+  .image-container {
+    width: 90%; /* La imagen ocupará más espacio en móviles pequeños */
+  }
+}

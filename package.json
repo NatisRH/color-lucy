@@ -2,7 +2,6 @@
   "name": "color-lucy",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://https://natisrh.github.io//color-lucy",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -14,11 +13,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && rename build docs",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [
@@ -39,6 +37,9 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.2.0"
+    "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.2.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15"
   }
 }
