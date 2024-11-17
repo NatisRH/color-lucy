@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.c4c3e9ee.css",
-    "main.js": "/static/js/main.b641c590.js",
-    "static/js/453.4a1f66d8.chunk.js": "/static/js/453.4a1f66d8.chunk.js",
-    "static/media/ColorLucyImage.png": "/static/media/ColorLucyImage.96d2453c88ac222420db.png",
-    "static/media/ColorLucyLogo.svg": "/static/media/ColorLucyLogo.fc19677149be22cea49ab5192812abe5.svg",
-    "index.html": "/index.html",
-    "main.c4c3e9ee.css.map": "/static/css/main.c4c3e9ee.css.map",
-    "main.b641c590.js.map": "/static/js/main.b641c590.js.map",
-    "453.4a1f66d8.chunk.js.map": "/static/js/453.4a1f66d8.chunk.js.map"
+    "main.css": "/color-lucy/static/css/main.c4c3e9ee.css",
+    "main.js": "/color-lucy/static/js/main.13bec34b.js",
+    "static/js/453.4a1f66d8.chunk.js": "/color-lucy/static/js/453.4a1f66d8.chunk.js",
+    "static/media/ColorLucyImage.png": "/color-lucy/static/media/ColorLucyImage.96d2453c88ac222420db.png",
+    "static/media/ColorLucyLogo.svg": "/color-lucy/static/media/ColorLucyLogo.fc19677149be22cea49ab5192812abe5.svg",
+    "index.html": "/color-lucy/index.html",
+    "main.c4c3e9ee.css.map": "/color-lucy/static/css/main.c4c3e9ee.css.map",
+    "main.13bec34b.js.map": "/color-lucy/static/js/main.13bec34b.js.map",
+    "453.4a1f66d8.chunk.js.map": "/color-lucy/static/js/453.4a1f66d8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c4c3e9ee.css",
-    "static/js/main.b641c590.js"
+    "static/js/main.13bec34b.js"
   ]
 }
