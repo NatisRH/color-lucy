@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "//natisrh.github.io//color-lucy/static/css/main.f855e6bc.css",
-    "main.js": "//natisrh.github.io//color-lucy/static/js/main.3cb55674.js",
-    "static/js/453.4a1f66d8.chunk.js": "//natisrh.github.io//color-lucy/static/js/453.4a1f66d8.chunk.js",
-    "index.html": "//natisrh.github.io//color-lucy/index.html",
-    "main.f855e6bc.css.map": "//natisrh.github.io//color-lucy/static/css/main.f855e6bc.css.map",
-    "main.3cb55674.js.map": "//natisrh.github.io//color-lucy/static/js/main.3cb55674.js.map",
-    "453.4a1f66d8.chunk.js.map": "//natisrh.github.io//color-lucy/static/js/453.4a1f66d8.chunk.js.map"
+    "main.css": "/static/css/main.c4c3e9ee.css",
+    "main.js": "/static/js/main.b641c590.js",
+    "static/js/453.4a1f66d8.chunk.js": "/static/js/453.4a1f66d8.chunk.js",
+    "static/media/ColorLucyImage.png": "/static/media/ColorLucyImage.96d2453c88ac222420db.png",
+    "static/media/ColorLucyLogo.svg": "/static/media/ColorLucyLogo.fc19677149be22cea49ab5192812abe5.svg",
+    "index.html": "/index.html",
+    "main.c4c3e9ee.css.map": "/static/css/main.c4c3e9ee.css.map",
+    "main.b641c590.js.map": "/static/js/main.b641c590.js.map",
+    "453.4a1f66d8.chunk.js.map": "/static/js/453.4a1f66d8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.3cb55674.js"
+    "static/css/main.c4c3e9ee.css",
+    "static/js/main.b641c590.js"
   ]
 }
